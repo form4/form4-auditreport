@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.form4.alfresco</groupId>
+	<artifactId>form4-auditreport</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>form4-auditreport-repo</module>
+		<module>form4-auditreport-share</module>
+	</modules>
+	<name>form4-auditreport</name>
+	<inceptionYear>2017</inceptionYear>
+	<organization>
+		<name>form4 GmbH &amp; Co. KG</name>
+		<url>http://www.form4.de</url>
+	</organization>
+	<contributors>
+		<contributor>
+			<name>Michael Mrotzek</name>
+			<email>michael.mrotzek@form4.de</email>
+			<organization>form4</organization>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>Europe/Berlin</timezone>
+		</contributor>
+	</contributors>
+</project>

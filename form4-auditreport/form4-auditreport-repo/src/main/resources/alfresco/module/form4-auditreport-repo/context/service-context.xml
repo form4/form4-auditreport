@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="permissionHelper" class="com.eisenvault.utils.PermissionHelper">
+		<property name="authorityService">
+			<ref bean="AuthorityService" />
+		</property>
+		<property name="permissionService">
+			<ref bean="PermissionService" />
+		</property>
+		<property name="siteService">
+			<ref bean="SiteService" />
+		</property>
+		<property name="allowedGroups">
+			<value>${auditreport.allowedGroups}</value>
+		</property>
+		<property name="writePermission">
+			<value>${auditreport.writePermission}</value>
+		</property>
+		<property name="allowedSiteGroup">
+			<value>${auditreport.allowedSiteGroup}</value>
+		</property>
+	</bean>
+
+
+</beans>

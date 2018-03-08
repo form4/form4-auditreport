@@ -1,0 +1,5 @@
+<webscript>
+  <shortname>list-auditdata</shortname>
+  <description>List Audit Data Component</description>
+  <url>/list-auditdata</url>
+</webscript>

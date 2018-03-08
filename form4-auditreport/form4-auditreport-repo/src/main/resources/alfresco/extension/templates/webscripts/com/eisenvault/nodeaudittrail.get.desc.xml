@@ -1,0 +1,7 @@
+<webscript>
+    <shortname>Audit Trail for a given node</shortname>
+    <description>Gives the audit trail for a nodeRef passed</description>
+    <url>/ev/nodeaudittrail?nodeRef={nodeRef}</url>
+    <authentication>user</authentication>
+    <format default="json"></format>
+</webscript>
