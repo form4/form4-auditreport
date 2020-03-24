@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.form4.alfresco</groupId>
 	<artifactId>form4-auditreport</artifactId>
-	<version>1.0.0</version>
+	<version>5.2</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>form4-auditreport-repo</module>

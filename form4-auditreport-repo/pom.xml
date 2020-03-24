@@ -4,12 +4,12 @@
 	<parent>
 		<artifactId>form4-auditreport</artifactId>
 		<groupId>de.form4.alfresco</groupId>
-		<version>1.0.0</version>
+		<version>5.2</version>
 	</parent>
 	<artifactId>form4-auditreport-repo</artifactId>
-	<version>1.0.0</version>
+	<version>5.2</version>
 	<name>form4-auditreport-repo Platform Jar Module</name>
-	<description>Platform JAR Module (to be included in the alfresco.war) - SDK 3</description>
+	<description>form4 Audit Report Platform Extension</description>
 	<packaging>jar</packaging>
 
 	<properties>
