@@ -59,3 +59,18 @@ This ...
 1. ... allows Alfresco or Site Administrators to get information of a document.
 2. ... allows SiteManager of a site to access audit information of a document. 
 3. ... other members of a Site can not access audit information of a document.
+
+# Build & Install
+
+1. Clone Repository 
+2. run `mvn clean package`
+3. Copy Amps to your Alfresco installation:
+  - `form4-auditreport-repo` to amps folder
+  - `form4-auditreport-share` to amps_share folder
+4. Apply amps
+  - simmply by running apply_amps.[sh|bat]
+  - or for each application itself:
+    - `java -jar alfresco-mmt.jar form4-auditreport-repo-XX.amp <webapps>/alfresco.war`
+    - `java -jar alfresco-mmt.jar form4-auditreport-share-XX.amp <webapps>/share.war`
+5. Assure correct file ownership to tomcat user for amps and generates .war files
+5. Restart Tomcat
